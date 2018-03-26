@@ -156,8 +156,8 @@ void food() {
     arduboy.tunes.tone(523,100);
     snakeLength += 1;
     score  = score + 10 + 5 * (snakeLength / 25);
-    if (snakeLength == 128) {
-      score = score + 1023;
+    if (snakeLength == 196) {
+      score = score + 1535;
       delay(1000);
       state = 2;
     }
