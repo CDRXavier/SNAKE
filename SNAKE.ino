@@ -355,7 +355,8 @@ void loop() {
     arduboy.setCursor(14, 40);
     arduboy.print(F("START = RIGHT + B"));
     if (arduboy.pressed(RIGHT_BUTTON + B_BUTTON)) {
-      for (int i = 0; i < 70; i ++) {        
+      for (int i = 0; i < 70; i ++) {
+        arduboy.clear();
         arduboy.setCursor(36, HEIGHT / 2);
         arduboy.print(F("WORKING..."));
         arduboy.display();
