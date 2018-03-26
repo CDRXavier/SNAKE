@@ -272,13 +272,13 @@ void loop() {
           initials[1] = tmpInitials[1];
           initials[2] = tmpInitials[2];
         }
+        score = 0;
         initials[0] = ' ';
         initials[1] = ' ';
         initials[2] = ' ';
+        break;
       }
     }
-    resetGame();
-    resetGame();
     resetGame();
     state = 4;
     break;
