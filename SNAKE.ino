@@ -12,6 +12,7 @@ int8_t foodY = 4 * random(1,15);
 int8_t Direction = 3;
 int8_t lastDirection;
 int16_t score, tmpScore;
+bool buttons = false;
 bool checkFood(byte x, byte y) {
   for (short i = 0;i < snakeLength; i ++) {
     if (x == SnakeBody[i][0] && y == SnakeBody[i][1]) return true;
