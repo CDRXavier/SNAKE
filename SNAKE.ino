@@ -216,6 +216,7 @@ void loop() {
       arduboy.setTextSize(2);
       Snake();
       food();
+      tick = tick + 1;
       arduboy.drawRect(0,0,WIDTH,HEIGHT,1);
     } else {
       delay(500);
@@ -378,7 +379,6 @@ void loop() {
     }
   }
   if (arduboy.notPressed(A_BUTTON | B_BUTTON | LEFT_BUTTON | RIGHT_BUTTON | UP_BUTTON | DOWN_BUTTON)) released = true;
-  tick ++;
   if (arduboy.audio.enabled()) {
     arduboy.drawRect(124,61,2,2,1);
     arduboy.drawLine(125, 59, 125, 62,1);
