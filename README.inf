@@ -1,0 +1,26 @@
+SNAKE
+
+The classic Snake game ... popularized by Nokia. NOT eating apples.
+Enter your highscore!
+
+Controls:
+In home screen:
+A_BUTTON to view high score
+B_BUTTON to begin game
+UP_BUTTON || DOWN_BUTTON to mute/unmute sound
+
+When gaming:
+A_BUTTON to pause
+B_BUTTON to shoot
+UP_BUTTON to activate thrusters
+DOWN_BUTTON to Hyperspace
+LEFT_BUTTON || RIGHT_BUTTON to turn
+
+When paused:
+
+!!!**B_BUTTON**!!! to unpause
+A_BUTTON to exit to homescreen
+
+When viewing highscore:
+A_BUTTON to return to homescreen
+LEFT_BUTTON to confirm highscore erase (I know guys with dumb fingers)
