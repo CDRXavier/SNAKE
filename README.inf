@@ -10,14 +10,13 @@ B_BUTTON to begin game
 UP_BUTTON || DOWN_BUTTON to mute/unmute sound
 
 When gaming:
+UP_BUTTON to head up
+DOWN_BUTTON to head down
+LEFT_BUTTON to head left
+RIGHT_BUTTON to head right
 A_BUTTON to pause
-B_BUTTON to shoot
-UP_BUTTON to activate thrusters
-DOWN_BUTTON to Hyperspace
-LEFT_BUTTON || RIGHT_BUTTON to turn
 
 When paused:
-
 !!!**B_BUTTON**!!! to unpause
 A_BUTTON to exit to homescreen
 
